@@ -1,0 +1,9 @@
+.about{
+    width: 100vw;
+   min-height: 50vh;
+    background-color: #FF2780;
+padding: 2em;
+box-sizing: border-box;
+
+    color: white;
+}

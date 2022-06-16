@@ -1,0 +1,8 @@
+.contact-options{
+    display: flex;
+    justify-content: space-evenly;
+}
+.contact-section{
+    width: min(95vw,650px);
+    margin: 0 auto;
+}
