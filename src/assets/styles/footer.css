@@ -1,0 +1,19 @@
+.footer{
+    min-height: 60vh;
+    width: 100vw;
+    color:  #ffffff;
+   background: #1a1826;
+ 
+
+}
+.footer-main{
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-links{
+    padding: 0 2rem;
+display: flex;
+justify-content: space-between;
+}

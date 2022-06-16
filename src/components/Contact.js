@@ -3,15 +3,18 @@ import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import '../assets/styles/contact.css'
+import ContactForm from "./partialls/ContactForm";
 
 
 
 const Contact = () => {
     const [mail,sendmail]= useState(false)
-    return ( <div className="contact-section">
-               <div className="contact-title"> <Typography variant="h4">Get in touch !</Typography>
+    return ( <div className="contact" >
+               <div className="contact-title">
+                 <Typography variant="h4">Get in touch !</Typography>
                 <Typography variant="para"> Got something for us , feel free to email or give us a call</Typography>
                 </div> 
+                <div className="contact-section">
         <div className="contact-options">
 
             <Card>
@@ -38,7 +41,8 @@ const Contact = () => {
         </div>
 
         <div className="contact-form">
-
+            <ContactForm/>
+        </div>
         </div>
     </div> );
 }

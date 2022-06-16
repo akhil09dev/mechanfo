@@ -3,9 +3,11 @@ import Typography from '@mui/material/Typography';
 import '../assets/styles/hero.css'
 import ButtonGroup from '@mui/material/ButtonGroup';
 import Button from '@mui/material/Button';
-
+import { Link } from "react-router-dom";
 const Hero = () => {
-    return ( <div className="hero" >
+
+    return ( <div className="hero"  >
+        
         
 <div className="title-block">
   <Typography variant='h1' 

@@ -6,13 +6,15 @@ import Nav from "../components/Nav";
 import About from "../components/About";
 import Services from "../components/Services";
 import Contact from "../components/Contact";
+import Footer from "../components/Footer";
+import Layout from "../components/layouts/Layout";
 const Home = () => {
     return ( <div>
-<Nav/>
-<Hero/>
-<About/>
-<Services/>
-<Contact/>
+<Layout>
+    <Hero/>
+    <About/>
+    <Contact/>
+</Layout>
 
 </div> );
 }

@@ -9,10 +9,14 @@
     font-weight: 700;
   }
 .hero{
-    
+    background-image:url('../../../public/images/hero.jpg');
+  background-size: cover;
+  margin-top: -70px;
+    background-repeat: no-repeat;
+   
     height: 100vh;
-    width: 100vw;
-    background-image: url('../../../public/images/valet-parking.jpg');
+       width: 100vw;
+   
 }
 .title-block{
     width: min(700px,90vw);

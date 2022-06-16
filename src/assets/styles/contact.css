@@ -3,6 +3,39 @@
     justify-content: space-evenly;
 }
 .contact-section{
-    width: min(95vw,650px);
+    width: min(100vw,400px);
+    padding: 2rem;
+    float: right;
+    border-radius: 45%  10% 0px ; 
+      background: rgb(131,58,180);
+    background: linear-gradient(0deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 38%, rgba(252,176,69,1) 97%);
+}
+.contact-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    width:100vw;
     margin: 0 auto;
+    height: fit-content;
+    padding: 3rem;
+    background-image: url('../../../public/images/contact-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.text-field{
+    width: 400px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+@media  screen and (max-width:720px) {
+    .contact{
+        flex-direction: column;
+    }
+    
 }
