@@ -1,7 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
 .nav{
     width: 80vw;
     display: flex;
     justify-content: space-between;
-    background: transparent;
-    position: static;
+    margin: 0 auto;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.nav-item{
+    padding: 0.5rem 0;
+}
+.nav-link{
+    width: 100%;
+    padding: 0 auto;
+    text-align: center;
+}
+ul{
+    list-style-type:none;
+
+}
+.font{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    /* color: white; */
+}
+
+.nav-list{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding:0 4rem;
+}
+.mobile-nav{
+    display: none;
+}
+
+
+.mobile-nav-modal{
+   
+    width: 80vw;
+    height: auto;
+    background-color:#22303C;
+
+    text-align: center;
+    
+}
+
+
+
+.logo img{
+    height: 60px;
+    margin: 0;
+}
+
+.line{
+    width: 30px;
+    height: 4px;
+    margin: 5px auto;
+    background-color: #ffffff;
+    border-radius: 1.5px;
+
+}
+.hamburger{
+    display: block;
+}
+
+
+
+@media only  screen and (max-width: 720px) {
+    .main-nav{
+        display: none;
+    }
+    .mobile-nav{
+        display:flex;
+    }
+   
+    .nav-list{
+       
+        flex-direction: column;
+    }
+    
 }

@@ -1,8 +1,18 @@
 
-.App {
+body{
+  background-color:#22303C;
 
 }
+html {
+  scroll-behavior: smooth;
+  overflow-x:hidden;
 
+}
+a{
+  text-decoration: none;
+  text-emphasis: none;
+  color: white;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

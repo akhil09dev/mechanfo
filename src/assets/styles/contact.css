@@ -3,10 +3,11 @@
     justify-content: space-evenly;
 }
 .contact-section{
-    width: min(100vw,400px);
-    padding: 2rem;
-    float: right;
+    width: min(90vw,450px);
+    padding: 2rem 0;
     border-radius: 45%  10% 0px ; 
+    margin: 0;
+    float: right;
       background: rgb(131,58,180);
     background: linear-gradient(0deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 38%, rgba(252,176,69,1) 97%);
 }
@@ -18,19 +19,27 @@
 
 .contact{
     display: flex;
+    box-sizing: border-box;
     justify-content: space-between;
     width:100vw;
     margin: 0 auto;
     height: fit-content;
     padding: 3rem;
-    background-image: url('../../../public/images/contact-bg.jpg');
-    background-size: cover;
+    /* background-image: url('../../../public/images/contact-bg.jpg'); */
+    background-size: cover ;
     background-repeat: no-repeat;
+    color: white;
 }
+
 .text-field{
-    width: 400px;
+    width: 80%;
     margin: 0 auto;
     padding: 1rem;
+    
+}
+.para{
+    padding: 1rem;
+    margin: 1rems;
 }
 
 @media  screen and (max-width:720px) {

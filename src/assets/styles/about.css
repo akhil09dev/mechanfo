@@ -1,24 +1,49 @@
+@keyframes moveRight {
+    from{
+      left: -500px;
+    } 
+    to{
+      left: 0;
+    }
+  }
+
 .about{
     
     /* height:100vh; */
-    background-image: url('../../../public/images/office.jpg');
+    /* background-image: url('../../../public/images/office.jpg'); */
     object-fit: cover;
+    width: 90vw;
+    margin: 0 auto;
+    padding: 4rem 0;
    min-height: 70vh;
-    width: 100vw;
-    background-repeat: no-repeat;
-    background-size: cover;
-  
-padding: 3em;
+   display: flex;
+   justify-content: space-evenly;
+   background-size: cover;
 box-sizing: border-box;
 
 }
 
 .about-text{
-    width: min-content;
-    min-width: min(600px,90vw);
+    width: min(90vw,450px);   padding-top:10vh;
+   color: white;
+        padding: 2rem;
+        animation: moveRight 5s;
+}
+.about-image{
+    width: min(90vw,450px);
+    height: auto;
+    padding: auto;
+    display: flex;
+    align-items: center;
+
+}
+.about-image img{
+   width: 100%;
 }
 
-.background{
-    
-    
+
+@media screen and (max-width:720px) {
+    .about{
+        flex-direction: column;
+    }
 }
