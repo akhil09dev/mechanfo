@@ -42,12 +42,6 @@ const projects = [
         link:'#0',
         img:'images/6.png',
         desc:'project by mechanfo pvt ltd'
-    },
-    {
-        name:'project1',
-        link:'#0',
-        img:'images/7.png',
-        desc:'project by mechanfo pvt ltd'
     }
       
 ]
@@ -69,12 +63,10 @@ const Services = () => {
              return(
             <Grid item sm={6} xs={12} md={4}>
              <Card className="product-card">
-         <CardMedia
-           component="img"
-           height="250"
-           image={p.img}
-           alt="project"
-         />
+        
+         <CardMedia>
+            <img  className="product-img" src={p.img} alt ={p.desc}/>
+         </CardMedia>
          
              </Card>
              </Grid>)

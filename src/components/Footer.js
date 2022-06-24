@@ -35,7 +35,7 @@ const Footer = ()=>{
                 </ul>
                 </div>
                 <div><ul className="footer-nav">
-                    <li className="link"><a href="#hero">Home</a></li>
+                    <li className="link"><a href="#about">About</a></li>
                     <li className="link"><a href="#contact">Contact</a></li>
                     <li className="link"><a href="#services">Products</a></li>
 

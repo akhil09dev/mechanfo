@@ -16,6 +16,11 @@
 .product-card:hover{
 animation: scale .5s ease-in forwards;
 }
+.product-img{
+
+width: 100%;
+height: auto;
+}
 @keyframes scale {
     from{
         scale: 1;

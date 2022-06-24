@@ -1,20 +1,18 @@
-.contact-options{
-    display: flex;
-    justify-content: space-evenly;
-}
+
 .contact-section{
-    width: min(90vw,450px);
+    width: min(80vw,450px);
     padding: 2rem 0;
     border-radius: 45%  10% 0px ; 
     margin: 0;
-    float: right;
-      background: rgb(131,58,180);
+   right: 0;
     background: linear-gradient(0deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 38%, rgba(252,176,69,1) 97%);
 }
+
 .contact-title{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: 0 auto;
 }
 
 .contact{
@@ -24,12 +22,15 @@
     width:100vw;
     margin: 0 auto;
     height: fit-content;
-    padding: 3rem;
-    /* background-image: url('../../../public/images/contact-bg.jpg'); */
-    background-size: cover ;
-    background-repeat: no-repeat;
-    color: white;
+    padding: 3rem 0;
+     color: white;
 }
+/* .contact-cards{
+    width: min(350px , 80vw);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+} */
 
 .text-field{
     width: 80%;
@@ -41,10 +42,18 @@
     padding: 1rem;
     margin: 1rems;
 }
+.card{
+    margin: 20px;
+    
+  
+}
 
 @media  screen and (max-width:720px) {
     .contact{
         flex-direction: column;
+        width:100vw;
+        align-items:flex-end;
+
     }
     
 }
